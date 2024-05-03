@@ -204,7 +204,11 @@ export default function MainPage() {
       <h3 className=" flex items-center justify-start py-5 text-lg">
         {pressed ? (
           <div>
-            <span className=" text-xl"> {amountInSourceCurrency}</span>{" "}
+            <span className=" text-xl">
+              
+{/* 
+              me yata ew uda tyna variable wge ew arn tynne userta display krnna oni line ek anthimt. me wge (300 Sri Lankan Rupee is equal to 1.68 United States Dollar)*/}
+             {amountInSourceCurrency}</span>{" "}
             {sourceCurrencyName} is equal to
             <span className=" text-xl font-bold text-green-400">
               {" "}
@@ -217,7 +221,7 @@ export default function MainPage() {
         )}
       </h3>
     </div>
-    { amountInTargetCurrency }
+   hey my name
   </div>
   )
 }
